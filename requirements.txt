@@ -1,0 +1,6 @@
+pandas
+plotly
+networkx
+matplotlib
+seaborn
+jinja2
