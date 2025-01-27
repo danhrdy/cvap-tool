@@ -10,6 +10,13 @@ The CVAP tool is an example script that transforms .EAF (XML) and .JSON files in
 
 [EAF files come from ELAN](https://github.com/mxochicale/elan) and [JSON from Label Studio](https://labelstud.io). The goal is to take already-made video annotations (ELAN) and bounding box information about entities (Label Studio) and combine these files into easy to read visuals, ready for further analysis. This tool can work as a bridge between just made annotations as a error check (statistics about given dataset) and a continuation of work, using the transformation engine to get a tabular structure out of JSON and EAF files.
 
+
+### Usage
+Setup:
+```console
+dan@mbp:~$ pip install -r requirements.txt
+```
+
 To run:
 ```console
 dan@mbp:~$ python main.py --mode (single/compare) --input ./data --output ./data/report
