@@ -15,6 +15,7 @@ To run:
 dan@mbp:~$ python main.py --mode (single/compare) --input ./data --output ./data/report
 ```
 
+Your input directory needs to contain a pair of files with the same name, at least one .eaf and one .json file. 
 
 
 
